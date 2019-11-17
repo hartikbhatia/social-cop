@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnGPSShowLocation"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="56dp"
+        android:background="#1cdf9e"
+        android:text="Show Location"
+        android:textColor="?android:attr/colorBackground" />
+
+    <Button
+        android:id="@+id/btnShowAddress"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnGPSShowLocation"
+        android:layout_marginEnd="18dp"
+        android:background="#1cdf9e"
+        android:text="Show Address"
+        android:textColor="?android:attr/colorBackground" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="134dp"
+        android:textColor="@android:color/background_dark" />
+</RelativeLayout>
